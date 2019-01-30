@@ -29,7 +29,7 @@ def request_disaster_send():
 def request_disaster(area):
 	area_name = area   # 클라이언트한테 받는 값
 	area_num_real = ""
-	area_number_dic = { "서울":"108",
+	area_number_dic = { "서울":"109",
                     "부산":"159",
                     "대구":"143",
                     "광주":"156",
@@ -47,14 +47,14 @@ def request_disaster(area):
 	queryParams = '?' + 'serviceKey=' + 'gWG0sC4x4sGVVHhFi2SUoL3UwVA6QA4T%2Bdh0T0sakO1mUbmPWDPeYXy6eI3%2FD8aWLzoeoV%2FKMInPkBsNKVJnFQ%3D%3D' \
                      + '&numOfRows=' + '1' \
                      + '&pageNo=' + '1' \
-                     + 'stnld=' + area_num_real
+                     + '&stnId=' + area_num_real
 
 	url_weather_news = url + queryParams
 
 	result = requests.get(url_weather_news)  #원하는 웹 페이지에 request를 보내 결과를 html을 받는다.
 	bs_obj = BeautifulSoup(result.content, "html.parser")
 	body = bs_obj.find("body") # 12 막 넘어서 하니까 예보 할 것이 없어
-	rem = body.find("rem") # 내용이 빈다.
+	rem = body.find("pwn") # 내용이 빈다.
 	result_msg = ""
 
 	if rem != None :
