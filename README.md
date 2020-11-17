@@ -92,27 +92,28 @@ HTTP, Android Studio, Google Speech API(TTS, STT), HttpUrlConnection, Google Geo
 #### * **Azure Cloud Computer를 이용한 서버 구축**
 ![실제구성한 가상머신 정보](https://images.velog.io/images/cooo002/post/a65faa65-8540-4557-86b5-5241fc62422e/image.png)
 ![](https://images.velog.io/images/cooo002/post/f7b74691-8272-41a7-bd88-d44087439180/image.png)
-> *** Azrure Clould Computer 사용이유**
--Cloud환경에 대한 궁금증 및 학습 욕구
--한정된 개발시간
--하나의 플랫폼으로 여러 서비스를 이용할 수 있다는 장점
--완성된 플랫폼 사용으로 통해 백엔드 배경지식의 부족함으로 일어날 수 있는 문제 해결
+
+> **Azrure Clould Computer 사용이유**
+* Cloud환경에 대한 궁금증 및 학습 욕구
+* 한정된 개발시간
+* 하나의 플랫폼으로 여러 서비스를 이용할 수 있다는 장점
+* 완성된 플랫폼 사용으로 통해 백엔드 배경지식의 부족함으로 일어날 수 있는 문제 해결
 
 #### * **Azure Blob-Storage를 활용한 이미지 저장 기능**
 
-> *** Azrure Clould Blob Storage Service 사용이유**
--간단한 이미지 업로드 기능
--REST API로 제공되는 Computer Vision API의 활용
--DashBoard와 같은 시각적 요소로 업로드된 이미지 관리
+> **Azrure Clould Blob Storage Service 사용이유**
+* 간단한 이미지 업로드 기능
+* REST API로 제공되는 Computer Vision API의 활용
+* DashBoard와 같은 시각적 요소로 업로드된 이미지 관리
 
 
 #### * **Azure Computer Vision API를 활용한 이미지 분석 기능**
 
-> ***  Azrure Computer Vision API 사용이유**
--서버를 구성한 Azure Cloud Computer와의 호환성
--REST API를 활용한 쉬운 사용법
--서버 경량화
--개발시간 단축
+> **Azrure Computer Vision API 사용이유**
+* 서버를 구성한 Azure Cloud Computer와의 호환성
+* REST API를 활용한 쉬운 사용법
+* 서버 경량화
+* 개발시간 단축
 
 ### ㄷ. 구동화면 및 세부설명
 
